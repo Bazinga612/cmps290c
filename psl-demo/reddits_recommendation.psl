@@ -1,3 +1,2 @@
 10: UsersSimilarity(U1,U2) & UsersSubReddits(U1,R) -> UsersSubReddits(U2,R) ^2
-10: UsersSimilarity(U2,U1) & UsersSubReddits(U2,R) -> UsersSubReddits(U1,R) ^2
 2: ~UsersSubReddits(U,R) ^2
