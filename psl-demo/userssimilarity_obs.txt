@@ -1,200 +1,100 @@
 feces	illuminatedwax
-
 60MinuteMan	duus
-
 MarshallBanana	masta
-
 cantsay	notting
-
 60MinuteMan	MarshallBanana
-
 60MinuteMan	masta
-
 MarshallBanana	morner
-
 DiskoVilante	smacfarl
-
 duus	MarshallBanana
-
 feces	morner
-
 duus	masta
-
 diatribal2	morner
-
 Independent	NoMoreNicksLeft
-
 cantsay	shiner_man
-
 bobcat	DiskoVilante
-
 notting	shiner_man
-
 diatribal2	MarshallBanana
-
 Eugi	smacfarl
-
 DiskoVilante	Eugi
-
 60MinuteMan	diatribal2
-
 60MinuteMan	morner
-
 illuminatedwax	morner
-
 diatribal2	feces
-
 feces	MarshallBanana
-
 60MinuteMan	DiskoVilante
-
 diatribal2	masta
-
 masta	morner
-
 bobcat	duus
-
 illuminatedwax	MarshallBanana
-
 bobcat	Eugi
-
 duus	morner
-
 DiskoVilante	morner
-
 feces	smacfarl
-
 60MinuteMan	feces
-
 duus	illuminatedwax
-
 60MinuteMan	illuminatedwax
-
 diatribal2	illuminatedwax
-
 60MinuteMan	bobcat
-
 DiskoVilante	feces
-
 DiskoVilante	duus
-
 illuminatedwax	smacfarl
-
 bobcat	smacfarl
-
 diatribal2	duus
-
 DiskoVilante	illuminatedwax
-
 duus	feces
-
 diatribal2	DiskoVilante
-
 60MinuteMan	smacfarl
-
 feces	masta
-
 shiner_man	theDrWho
-
 illuminatedwax	masta
-
 DiskoVilante	MarshallBanana
-
 morner	smacfarl
-
 diatribal2	smacfarl
-
 duus	smacfarl
-
 bobcat	illuminatedwax
-
 duus	raldi
-
 DiskoVilante	redditcensoredme
-
 masta	raldi
-
 MarshallBanana	raldi
-
 DiskoVilante	masta
-
 MarshallBanana	smacfarl
-
 bobcat	MarshallBanana
-
 bobcat	feces
-
 bobcat	theDrWho
-
 bobcat	morner
-
 Eugi	redditcensoredme
-
 60MinuteMan	Eugi
-
 bobcat	diatribal2
-
 bobcat	masta
-
 Eugi	illuminatedwax
-
 Eugi	feces
-
 redditcensoredme	smacfarl
-
 masta	smacfarl
-
 duus	Eugi
-
 60MinuteMan	raldi
-
 notting	theDrWho
-
 Eugi	morner
-
 morner	redditcensoredme
-
 bobcat	redditcensoredme
-
 diatribal2	Eugi
-
 Eugi	shiner_man
-
 cantsay	theDrWho
-
 illuminatedwax	raldi
-
 boredzo	illuminatedwax
-
 morner	raldi
-
 bobcat	shiner_man
-
 feces	redditcensoredme
-
 Eugi	theDrWho
-
 Eugi	MarshallBanana
-
 cantsay	Eugi
-
 diatribal2	raldi
-
 raldi	soyabstemio
-
 feces	raldi
-
 DiskoVilante	theDrWho
-
 illuminatedwax	redditcensoredme
-
 Eugi	notting
-
 diatribal2	redditcensoredme
-
 bobcat	raldi
-
 boredzo	feces
-
 Eugi	masta
-

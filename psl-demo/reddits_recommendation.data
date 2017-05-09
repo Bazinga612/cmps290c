@@ -1,17 +1,17 @@
 predicates:
- Users/1:closed
- Subreddits/1:closed
- UsersSimilarity/2:closed
- UsersSubReddits/2:open
+ Users/1: closed
+ Subreddits/1: closed
+ UsersSimilarity/2: closed
+ UsersSubReddits/2: open
 
 observations:
-  Users :users_obs.txt
-  Subreddits :subreddits_obs.txt
-  UsersSimilarity :userssimilarity_obs.txt
-  UsersSubReddits :userssubbreddits.txt
+  Users: users_obs.txt
+  Subreddits: subreddits_obs.txt
+  UsersSimilarity: userssimilarity_obs.txt
+  UsersSubReddits: userssubreddits_obs.txt
 
 targets:
-  UsersSubReddits :userssubbreddits_targets.txt
+  UsersSubReddits: userssubreddits_targets.txt
 
 truth:
-  UsersSubReddits :userssubbreddits_truth.txt
+  UsersSubReddits: userssubreddits_truth.txt
