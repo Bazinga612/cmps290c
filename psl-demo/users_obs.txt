@@ -1,4 +1,3 @@
-author
 _______
 __alex
 __david__
