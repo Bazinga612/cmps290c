@@ -2,7 +2,10 @@ import csv
 import numpy as np
 import math
 import random, sys
+'''
+This code returns 
 
+'''
 
 class user_sim:
 	def __init__(self):	
@@ -49,7 +52,8 @@ class user_sim:
 				userid=row[0]
 				self.user_rowid[userid]=j
 				noc=sum(self.data[j][1:])
-				if noc>=threshold:
+				print("number of comments=",noc)
+				if noc>=threshold:					#if number of comments is above threshold
 					self.user_comments[userid]=noc
 					self.imp_users.append(userid)
 					count_above+=1
@@ -89,13 +93,13 @@ class user_sim:
 				#strx=self.imp_users[j]+'	'+self.imp_users[k]+'	'+str(scr)+'\n'
 				self.user_user_distances.append((self.imp_users[j],self.imp_users[k],scr))
 				cnt+=1
-				self.drawProgressBar(perc)
+				#self.drawProgressBar(perc)
 		self.sort_user_distances()
 
 	def control(self):
-		self.num_comments(50)
+		self.num_comments(10)
 		self.find_all_distances()
 
 
 ux=user_sim()
-ux.control()
+#ux.control()

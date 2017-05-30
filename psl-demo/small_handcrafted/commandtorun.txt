@@ -1,1 +1,1 @@
-java -jar psl-cli-2.0-SNAPSHOT.jar -infer -model simple_cc.psl -data simple_cc.data
+java -jar psl-cli-2.0-SNAPSHOT.jar -infer -model red.psl -data red.data
