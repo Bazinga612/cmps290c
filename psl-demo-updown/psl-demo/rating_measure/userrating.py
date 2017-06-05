@@ -5,6 +5,7 @@ class userrating:
 		self.attrs={}
 		self.huge={}		#stores the number of comments
 		self.updowns={}
+		self.sentiments={}
 
 	def loadnoc(self):
 		commentsfile='refined_all.csv'
@@ -34,7 +35,16 @@ class userrating:
 				self.updowns[(row[0],row[1])]=row[2]
 				#print(row['author'],row['subreddit_id'],row['ups'])
 
-	
+	def loadsentiments(self):
+		sentimentfile='../sentiment/sentiments.csv'
+		with open(sentimentfile,'r') as f:
+			reader=csv.reader(f)
+			for j in range(5045):
+				row=next(reader)
+				self.sentiments[(row[0],row[1])]=[row[2],row[3]]
+
+	def lookupsentiment(self,userid,subredditid):
+		return self.sentiments[(userid,subredditid)]
 
 	def lookupdown(self,userid,subredditid):
 		return self.updowns[(userid,subredditid)]	
@@ -51,3 +61,5 @@ uu.loadnoc()
 print(uu.retrieve_noc('10-Dec','t5_6'))
 uu.loadupdowns()
 print(uu.lookupdown('25462y7asdfh','t5_6'))
+uu.loadsentiments()
+print(uu.lookupsentiment('25462y7asdfh','t5_6'))
