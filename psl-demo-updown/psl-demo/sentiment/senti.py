@@ -15,6 +15,8 @@ class sentiment:
 		self.ofile2=open('negative_sentiments.txt','w')
 		self.ofile3=open('user_comments.txt','w')
 		self.ofile4=open('user_dislikes.txt','w')
+		csvfile1=open('sentiments.csv', 'w',newline='')
+		self.csvfile=csv.writer(csvfile1,delimiter=',')
 
 	def strip_punct(self,s):			#removes the functions
 		s = s.replace('-',' ')
@@ -55,6 +57,8 @@ class sentiment:
 						tneg.append(senti[1])
 				avgpos=np.mean(tpos)
 				avgneg=np.mean(tneg)
+				temparr=[row[0],row[1],avgpos,avgneg]
+				self.csvfile.writerow(temparr)
 				'''if np.isnan(avgpos)==False:
 					strx1=row[0]+','+row[1]+','+str(avgpos)+'\n'
 					self.ofile1.write(strx1)
