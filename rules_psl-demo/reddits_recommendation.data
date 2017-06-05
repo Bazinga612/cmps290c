@@ -1,0 +1,39 @@
+predicates:
+ Users/1: closed
+ Subreddits/1: closed
+ UsersSimilarity/2: closed
+ UsersSubReddits/2: open
+ UsersUpVotes/2: closed
+ UsersDownVotes/2: closed
+ UsersFollowers/2: open
+ UsersAvoid/2: open
+ UsersNegative/2 : closed
+ UsersNComments/2: open
+ UsersPComments/2: open
+ UsersPositive/2: closed
+
+observations:
+  Users: users_obs.txt
+  Subreddits: subreddits_obs.txt
+
+  UsersSimilarity: userssimilarity_obs3.txt
+  UsersSubReddits: userssubreddits_obs.txt
+  UsersUpVotes: usersupvotes_obs.txt
+  UsersDownVotes: usersdownvotes_obs.txt 
+  UsersNegative: usersnegative_obs.txt
+  UsersPositive: userspositive_obs.txt
+  
+targets:
+  UsersSubReddits: userssubreddits_targets.txt
+  UsersFollowers: usersfollowers_targets.txt
+  UsersAvoid: usersavoid_targets.txt
+  UsersNComments: usersncomments_targets.txt
+  UsersPComments: userspcomments_targets.txt
+
+truth:
+  UsersSubReddits: userssubreddits_truth.txt
+  UsersFollowers: usersfollowers_truth.txt
+  UsersAvoid: usersavoid_truth.txt
+  UsersNComments: usersncomments_truth.txt
+  UsersPComments: userspcomments_truth.txt
+

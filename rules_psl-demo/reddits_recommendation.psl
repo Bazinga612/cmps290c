@@ -1,0 +1,16 @@
+5: UsersSimilarity(U1,U2) & UsersSubReddits(U1,R) -> UsersSubReddits(U2,R) ^2
+2: ~UsersSubReddits(U,R) ^2
+
+5: UsersSubReddits(U2,R) & UsersUpVotes(U1,R) &  UsersSimilarity(U1,U2) & U1 != U2 -> UsersFollowers(U1,U2) ^2
+1: ~UsersFollowers(U1,U2) ^2
+
+5: UsersSubReddits(U2,R) & UsersDownVotes(U1,R) &  UsersSimilarity(U1,U2) & U1 != U2 -> UsersAvoid(U1,U2) ^2
+1: ~UsersAvoid(U1,U2) ^2
+
+5: UsersSubReddits(U2,R) & UsersPositive(U1,R) &  UsersSimilarity(U1,U2) & U1 != U2 -> UsersPComments(U1,U2) ^2
+1: ~UsersPComments(U1,U2) ^2
+
+5: UsersSubReddits(U2,R) & UsersNegative(U1,R) &  UsersSimilarity(U1,U2) & U1 != U2 -> UsersNComments(U1,U2) ^2
+1: ~UsersNComments(U1,U2) ^2
+
+
